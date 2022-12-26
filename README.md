@@ -6,16 +6,11 @@ Developed as part of Refrens hiring process assignment.
 
 ## Deployment Link
 
-[Here](https://mahanth-refrens.herokuapp.com/).
+[Here](https://refrens-assignment.vercel.app/)
 
 ## Tech Stack
 
 - [React (Javascipt)](https://reactjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-
-## Design
-
-Inspired by the [Brutalist philosophy](https://dribbble.com/tags/brutalism) as featured on the [TailwindCSS website card](https://tailwindcss.com/#build-anything).
 
 ## Installation and Setup Instructions
 
