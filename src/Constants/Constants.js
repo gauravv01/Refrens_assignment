@@ -1,0 +1,20 @@
+export const Constants = {
+  EPISODES_FEATURED: 'Episodes Featured In',
+  CLOSE_BUTTON: 'Close',
+  SPECIES: 'Species',
+  STATUS: 'Status',
+  GENDER: 'Gender',
+  MORE_INFO: 'More Info',
+  ORIGIN: 'Origin',
+  CURRENT_LOCATION: 'Current Location',
+  PLACE: 'Place',
+  DIMENSION: 'Dimension',
+  NO_OF_RESIDENTS: 'No. of Residents',
+  GENDER_LIST: ['', 'Male', 'Female', 'Genderless', 'Unknown'],
+  STATUS_LIST: ['', 'Dead', 'Alive', 'Unknown'],
+  SPECIES_LIST: ['', 'Human', 'Alien', 'Robot', 'Humanoid'],
+  RICKY_AND_MICKY: 'Characters From Rick and Morty',
+  NO_RESULTS: 'No Results',
+  LOADING: 'Loading...',
+  UNKNOWN: 'Unknown'
+};

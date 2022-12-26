@@ -1,0 +1,46 @@
+.all_filters{
+    display: flex;
+    flex-direction: column;
+}
+
+.single_filter{
+    margin: 0 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter_heading{
+    font-weight: 700;
+}
+
+.filter_options{
+    padding: 0.25rem;
+    margin-left: 1.25rem;
+    border: 2px solid black;
+    border-radius: 0.125rem;
+}
+
+@media(min-width:768px){
+    .all_filters{
+        flex-direction: row;
+    }
+    .single_filter{
+        padding: 0.25rem;
+        display: block;
+        margin: 0;
+    }
+    .filter_heading{
+        font-weight: 600;
+    }
+    .filter_options{
+        margin-left: 0.5rem;
+    }
+}
+
+@media (min-width:992px){
+    .single_filter{
+        margin: 0 1rem;
+    }
+}

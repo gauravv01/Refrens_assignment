@@ -1,0 +1,118 @@
+.episode_div{
+   position: fixed;
+   top: 0;
+   left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 60;
+}
+
+.backscreen_div{
+    position: fixed;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+}
+
+.eplist_div{
+    background-color: rgb(236, 235, 255);
+    width: 83.33%;
+    border: 2px solid rgb(18, 131, 116);
+    overflow: auto;
+    height: 80%;
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 0.125rem;
+    z-index: 70;
+}
+
+.eplist_internal_div{
+    display: flex;
+    flex-direction: column;
+    z-index: 50;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.list_heading{
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: none;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: white;
+
+}
+
+.mapList_div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+}
+
+.mapList_internal_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 0.5rem;
+}
+
+.mapList_h1{
+    position: relative;
+    flex: none;
+    padding: 0.5rem 0;
+}
+
+.epList_button{
+    padding: 0.5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    border: 2px solid black;
+    background-color: rgb(188, 192, 198);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    color: black;
+}
+
+
+@media(min-width:768px){
+    .eplist_div{
+        width: 40%;
+    }
+    .list_heading{
+        font-weight: 600;
+    }
+    .mapList_internal_div{
+        padding-left: 1rem;
+    }
+    .epList_button{
+        font-weight: 600;
+    }
+}
+
+.epList_button:hover{
+    background-color: white;
+}
